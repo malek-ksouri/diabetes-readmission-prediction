@@ -4,6 +4,13 @@ venv/
 __pycache__/
 *.pyc
 
+# Node (le plus lourd)
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+
 # Données (lourdes, dataset public)
 data/raw/
 data/processed/*.pkl

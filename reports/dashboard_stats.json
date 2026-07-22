@@ -1,0 +1,173 @@
+{
+  "_meta": {
+    "genere_le": "2026-07-20 15:40",
+    "source": "data_clean.csv",
+    "nb_lignes": 69987,
+    "note": "Statistiques descriptives du dataset nettoyé (population réelle du modèle)."
+  },
+  "apercu": {
+    "total_sejours": 69987,
+    "readmis_30j": 6285,
+    "taux_readmission_pct": 9.0,
+    "non_readmis": 63702
+  },
+  "taux_par_age": [
+    {
+      "groupe": "[0-10)",
+      "taux": 2.0
+    },
+    {
+      "groupe": "[10-20)",
+      "taux": 4.9
+    },
+    {
+      "groupe": "[20-30)",
+      "taux": 7.4
+    },
+    {
+      "groupe": "[30-40)",
+      "taux": 7.0
+    },
+    {
+      "groupe": "[40-50)",
+      "taux": 7.4
+    },
+    {
+      "groupe": "[50-60)",
+      "taux": 7.1
+    },
+    {
+      "groupe": "[60-70)",
+      "taux": 9.0
+    },
+    {
+      "groupe": "[70-80)",
+      "taux": 10.2
+    },
+    {
+      "groupe": "[80-90)",
+      "taux": 10.8
+    },
+    {
+      "groupe": "[90-100)",
+      "taux": 9.5
+    }
+  ],
+  "taux_par_specialite": [
+    {
+      "specialite": "Orthopedics",
+      "taux": 9.9
+    },
+    {
+      "specialite": "InternalMedicine",
+      "taux": 9.8
+    },
+    {
+      "specialite": "Family/GeneralPractice",
+      "taux": 9.7
+    },
+    {
+      "specialite": "Surgery-General",
+      "taux": 8.3
+    },
+    {
+      "specialite": "Emergency/Trauma",
+      "taux": 7.8
+    },
+    {
+      "specialite": "Cardiology",
+      "taux": 7.2
+    },
+    {
+      "specialite": "Radiologist",
+      "taux": 7.1
+    },
+    {
+      "specialite": "Orthopedics-Reconstructive",
+      "taux": 6.6
+    }
+  ],
+  "repartition_age": [
+    {
+      "groupe": "[0-10)",
+      "nombre": 153
+    },
+    {
+      "groupe": "[10-20)",
+      "nombre": 534
+    },
+    {
+      "groupe": "[20-30)",
+      "nombre": 1121
+    },
+    {
+      "groupe": "[30-40)",
+      "nombre": 2692
+    },
+    {
+      "groupe": "[40-50)",
+      "nombre": 6828
+    },
+    {
+      "groupe": "[50-60)",
+      "nombre": 12351
+    },
+    {
+      "groupe": "[60-70)",
+      "nombre": 15688
+    },
+    {
+      "groupe": "[70-80)",
+      "nombre": 17749
+    },
+    {
+      "groupe": "[80-90)",
+      "nombre": 11110
+    },
+    {
+      "groupe": "[90-100)",
+      "nombre": 1761
+    }
+  ],
+  "correlations_cible": [
+    {
+      "variable": "number_inpatient",
+      "correlation": 0.1
+    },
+    {
+      "variable": "time_in_hospital",
+      "correlation": 0.056
+    },
+    {
+      "variable": "number_diagnoses",
+      "correlation": 0.046
+    },
+    {
+      "variable": "num_medications",
+      "correlation": 0.036
+    },
+    {
+      "variable": "num_lab_procedures",
+      "correlation": 0.032
+    },
+    {
+      "variable": "number_emergency",
+      "correlation": 0.028
+    }
+  ],
+  "repartition_sexe": [
+    {
+      "sexe": "Female",
+      "nombre": 37239
+    },
+    {
+      "sexe": "Male",
+      "nombre": 32748
+    }
+  ],
+  "moyennes": {
+    "time_in_hospital": 4.3,
+    "num_medications": 15.7,
+    "number_diagnoses": 7.2
+  }
+}
